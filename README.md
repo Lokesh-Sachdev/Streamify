@@ -1,5 +1,5 @@
 
-# Streamify Analytics Dashboard
+# [Streamify Analytics Dashboard](https://spontaneous-kleicha-63fa6a.netlify.app/)
 
 ![image](https://github.com/user-attachments/assets/1de65927-7d80-4b38-94da-30f20cb4010f)
 ![image](https://github.com/user-attachments/assets/8b1c029a-0fc7-493f-b88d-874167730353)
