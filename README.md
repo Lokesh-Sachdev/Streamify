@@ -1,40 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## Getting Started
+# Streamify Analytics Dashboard
 
-First, run the development server:
+![image](https://github.com/user-attachments/assets/1de65927-7d80-4b38-94da-30f20cb4010f)
+![image](https://github.com/user-attachments/assets/8b1c029a-0fc7-493f-b88d-874167730353)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## **Overview**
+The **Streamify Analytics Dashboard** is a single-page application (SPA) built with React that provides insights into user activity, revenue, and content performance for the fictional music streaming service, Streamify. The dashboard features key metrics, interactive charts, and a sortable/filterable data table.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## **Features**
+- **Key Metrics**:
+  - Total Users
+  - Active Users
+  - Total Streams
+  - Revenue
+  - Top Artist
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Data Visualization**:
+  - User Growth Chart (Line Chart)
+  - Revenue Distribution (Pie Chart)
+  - Top 5 Streamed Songs (Bar Chart)
 
-## Learn More
+- **Data Table**:
+  - Displays recent streams with columns: Song Name, Artist, Date Streamed, Stream Count, User ID.
+  - Supports sorting and filtering.
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design**:
+  - Optimized for desktop, tablet, and mobile devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **Interactive Charts**:
+  - Hover over chart elements to view detailed information.
+  - Click on pie chart segments to filter the data table.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## **Technologies Used**
+- **Frontend**:
+  - React
+  - Chart.js (for data visualization)
+  - Tailwind CSS (for styling)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **State Management**:
+  - React Redux
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- **Deployment**:
+  - Netlify
+
+---
+
+## **Live Demo**
+[View Live Demo](https://spontaneous-kleicha-63fa6a.netlify.app/)
+
+---
+
+## **Installation**
+Follow these steps to run the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/streamify-dashboard.git
+   cd streamify-dashboard
+
+2. **Install Dependencies**:
+    ```bash
+    npm install
+
+3. **Run the Application**:
+    ```bash
+    npm run dev
+
+4. **Open in Browser**:
+Visit http://localhost:3000 to view the dashboard.
+
+## **Project Structure**
+    ```bash
+    streamify-dashboard/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   ├── KeyMetrics.jsx
+    │   │   ├── UserGrowthChart.jsx
+    │   │   ├── RevenueDistribution.jsx
+    │   │   ├── TopSongsChart.jsx
+    │   │   ├── StreamsTable.jsx
+    │   ├── context/
+    │   │   ├── DataContext.js
+    │   ├── pages/
+    │   │   ├── index.jsx
+    ├── .gitignore
+    ├── package.json
+    ├── README.md
+
+## **Contact**
+
+For questions or feedback, feel free to reach out:
+
+- **Mail**: Sachdev927@gmail.com
+
+Please feel free to reach out if you have any questions or need further clarification.
+
